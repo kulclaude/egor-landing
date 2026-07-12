@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Дневник — Егор · Claude Code с нуля</title>
+<meta name="description" content="Фото и видео с пути изучения Claude Code, и первые отзывы учеников — по мере появления.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<nav class="topnav">
+  <a href="index.html" class="topnav-logo">$ <span style="color:var(--coral);">egor</span>_</a>
+  <div class="topnav-desktop">
+    <div class="topnav-links">
+      <a href="index.html" data-nav-link="index.html">~/</a>
+      <a href="about.html" data-nav-link="about.html">about</a>
+      <a href="program.html" data-nav-link="program.html">program</a>
+      <a href="journal.html" data-nav-link="journal.html">journal</a>
+      <a href="faq.html" data-nav-link="faq.html">faq</a>
+    </div>
+    <a href="start.html" class="topnav-cta">Начать →</a>
+  </div>
+  <button class="nav-burger" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu">
+  <a href="index.html" data-nav-link="index.html">~/</a>
+  <a href="about.html" data-nav-link="about.html">about</a>
+  <a href="program.html" data-nav-link="program.html">program</a>
+  <a href="journal.html" data-nav-link="journal.html">journal</a>
+  <a href="faq.html" data-nav-link="faq.html">faq</a>
+  <a href="start.html" class="btn btn-primary">Начать →</a>
+</div>
+
+<main>
+
+<section class="page-hero wrap">
+  <div class="path-crumb reveal">
+    <a href="index.html" class="seg">~</a><span class="sep">/</span><span class="seg cur">journal</span>
+  </div>
+  <h1 class="reveal">Дневник <span>из первых рук</span></h1>
+  <p class="lead reveal">Фото и видео с моего пути, и место, где скоро появятся истории первых учеников.</p>
+</section>
+
+<section class="wrap" style="padding-top:0;">
+  <div class="ls-block reveal">$ ls -la ~/journal/reels/</div>
+  <div class="gallery" id="cases-grid"></div>
+  <div class="testi-empty" id="cases-empty" style="display:none;">
+    <strong>Кейсы появятся здесь</strong>
+    Как только выйдут первые ролики и разборы — они будут здесь, со ссылками на оригиналы.
+  </div>
+  <p class="ink-muted reveal" style="margin-top:20px; font-size:14px;">Новые ролики выходят в Instagram и Telegram-канале — каждый со ссылкой на оригинал.</p>
+</section>
+
+<section class="wrap">
+  <div class="comment-head reveal">git log --author=students --oneline</div>
+  <h2 class="reveal" style="font-size:clamp(26px,3.4vw,38px); max-width:520px; margin-bottom:0;">Здесь появятся истории учеников</h2>
+  <div id="testimonials-grid"></div>
+  <div class="testi-empty" id="testimonials-empty" style="display:none;">
+    <strong>Первый отзыв — за вами</strong>
+    Пока список пуст, потому что путь только начинается. Каждый, кто пройдёт обучение и поделится результатом, окажется здесь одним из первых.
+  </div>
+</section>
+
+<section class="final wrap">
+  <div class="reveal">
+    <h2>Станьте частью первой волны</h2>
+    <p>Первые ученики — самые заметные. Начните сейчас, пока список отзывов ещё пуст.</p>
+    <div class="cta-row">
+      <a href="https://t.me/egor_claudecode_bot" class="btn btn-primary" target="_blank" rel="noopener">Начать обучение в боте →</a>
+      <a href="https://t.me/egorfromperm" class="btn btn-secondary" target="_blank" rel="noopener">Смотреть Reels в канале</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand"><span style="color:var(--coral);">$</span> Егор — изучаю Claude Code в открытую и делюсь путём. Санкт-Петербург.</div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a>
+          <a href="about.html">История</a>
+          <a href="program.html">Программа</a>
+          <a href="journal.html">Дневник</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Связь</h4>
+          <a href="https://t.me/egor_claudecode_bot" target="_blank" rel="noopener">Telegram-бот</a>
+          <a href="https://t.me/egorfromperm" target="_blank" rel="noopener">@egorfromperm</a>
+          <a href="https://www.threads.com/@egor.kulkov" target="_blank" rel="noopener">Threads</a>
+        </div>
+      </div>
+    </div>
+    <div class="fine">
+      <p>Материалы по анализу рынков носят образовательный характер и не являются индивидуальной инвестиционной рекомендацией. Фьючерсы — высокорисковый инструмент, все решения и риски — на вас.</p>
+      <p>ЕГОР · CLAUDE CODE С НУЛЯ · САНКТ-ПЕТЕРБУРГ</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+(function(){
+  fetch('cases.json').then(function(r){ return r.json(); }).then(function(data){
+    var cases = (data && data.cases) || [];
+    var testimonials = (data && data.testimonials) || [];
+
+    var grid = document.getElementById('cases-grid');
+    var empty = document.getElementById('cases-empty');
+    if(cases.length){
+      cases.forEach(function(c){
+        var a = document.createElement('a');
+        a.className = 'gallery-item visible';
+        a.href = c.link || '#';
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.style.textDecoration = 'none';
+        if(c.thumb){
+          a.style.backgroundImage = 'linear-gradient(0deg, rgba(21,11,41,0.75), rgba(21,11,41,0.05)), url(' + c.thumb + ')';
+          a.style.backgroundSize = 'cover';
+          a.style.backgroundPosition = 'center';
+        }
+        var span = document.createElement('span');
+        span.textContent = c.title || 'Кейс';
+        a.appendChild(span);
+        grid.appendChild(a);
+      });
+    } else if(empty){
+      empty.style.display = 'block';
+    }
+
+    var tGrid = document.getElementById('testimonials-grid');
+    var tEmpty = document.getElementById('testimonials-empty');
+    if(testimonials.length){
+      tGrid.style.marginTop = '24px';
+      testimonials.forEach(function(t){
+        var card = document.createElement('div');
+        card.className = 'module-card';
+        card.style.marginBottom = '16px';
+        var h3 = document.createElement('h3');
+        h3.textContent = t.name || 'Отзыв';
+        var p = document.createElement('p');
+        p.textContent = t.text || '';
+        card.appendChild(h3);
+        card.appendChild(p);
+        if(t.link){
+          var a = document.createElement('a');
+          a.href = t.link; a.target = '_blank'; a.rel = 'noopener';
+          a.textContent = 'Смотреть оригинал →';
+          a.style.color = 'var(--coral)'; a.style.fontSize = '14px'; a.style.textDecoration = 'none';
+          card.appendChild(a);
+        }
+        tGrid.appendChild(card);
+      });
+    } else if(tEmpty){
+      tEmpty.style.display = 'block';
+    }
+  }).catch(function(){
+    var empty = document.getElementById('cases-empty');
+    var tEmpty = document.getElementById('testimonials-empty');
+    if(empty) empty.style.display = 'block';
+    if(tEmpty) tEmpty.style.display = 'block';
+  });
+})();
+</script>
+</body>
+</html>
